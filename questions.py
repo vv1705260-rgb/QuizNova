@@ -1,25 +1,28 @@
+
 quiz_questions = [
 
     {
-        "question": "What is the extension of Python files?",
+        "question": "What is the extension of python files?",
         "options": [
             "A. .html",
             "B. .java",
             "C. .py",
             "D. .cpp"
         ],
-        "answer": "C"
+        "answer": "C",
+        "correct_text": ".py"
     },
 
     {
-        "question": "Who developed Python?",
+        "question": "Who developed c?",
         "options": [
             "A. Dennis Ritchie",
             "B. Guido van Rossum",
             "C. James Gosling",
             "D. Elon Musk"
         ],
-        "answer": "B"
+        "answer": "A",
+        "correct_text": "Guido van Rossum"
     },
 
     {
@@ -30,29 +33,56 @@ quiz_questions = [
             "C. iterate",
             "D. for"
         ],
-        "answer": "D"
+        "answer": "D",
+        "correct_text": "for"
     },
 
     {
-        "question": "Which symbol is used for comments in Python?",
+        "question": "Which symbol is used for comments in Html?",
         "options": [
             "A. //",
             "B. <!-- -->",
             "C. #",
             "D. **"
         ],
-        "answer": "C"
+        "answer": "B",
+        "correct_text": "#"
     },
 
     {
-        "question": "Which function is used to take input?",
+        "question": "Which function is used to take input in python?",
         "options": [
             "A. print()",
             "B. scanf()",
             "C. cin",
             "D. input()"
         ],
-        "answer": "D"
+        "answer": "D",
+        "correct_text": "input()"
+    },
+
+    {
+        "question": "Which data type is used to store decimal numbers?",
+        "options": [
+            "A. int",
+            "B. float",
+            "C. string",
+            "D. bool"
+        ],
+        "answer": "B",
+        "correct_text": "float"
+    },
+
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "A. function",
+            "B. define",
+            "C. def",
+            "D. func"
+        ],
+        "answer": "C",
+        "correct_text": "def"
     }
 
 ]
