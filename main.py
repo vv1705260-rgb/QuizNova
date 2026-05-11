@@ -36,7 +36,37 @@ for index, q in enumerate(quiz_questions, start=1):
         wrong_answers += 1
 
     time.sleep(1)
+# Quiz Questions Loop
+for index, q in enumerate(quiz_questions, start=1):
 
+    print(f"\nQuestion {index}: {q['question']}")
+    print("-" * 50)
+
+    for option in q['options']:
+        print(option)
+
+    answer = input("\nEnter option (A/B/C/D): ").upper()
+
+    # Correct Answer Check
+    if answer == q['answer']:
+
+        print("\n✅ Correct Answer!")
+        print(f"✔ Correct Option : {q['answer']}")
+        print(f"📘 Answer : {q['correct_text']}")
+
+        score += 10
+        correct_answers += 1
+
+    else:
+
+        print("\n❌ Wrong Answer!")
+        print(f"✔ Correct Option : {q['answer']}")
+        print(f"📘 Correct Answer : {q['correct_text']}")
+
+        wrong_answers += 1
+
+    print("\n⏳ Moving to next question...")
+    time.sleep(2)
 # Result Section
 clear_screen()
 
