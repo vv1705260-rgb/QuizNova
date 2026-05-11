@@ -1,8 +1,7 @@
-
 quiz_questions = [
 
     {
-        "question": "What is the extension of python files?",
+        "question": "What is the extension of Python files?",
         "options": [
             "A. .html",
             "B. .java",
@@ -14,14 +13,14 @@ quiz_questions = [
     },
 
     {
-        "question": "Who developed c?",
+        "question": "Who developed Python?",
         "options": [
             "A. Dennis Ritchie",
             "B. Guido van Rossum",
             "C. James Gosling",
             "D. Elon Musk"
         ],
-        "answer": "A",
+        "answer": "B",
         "correct_text": "Guido van Rossum"
     },
 
@@ -38,19 +37,19 @@ quiz_questions = [
     },
 
     {
-        "question": "Which symbol is used for comments in Html?",
+        "question": "Which symbol is used for comments in Python?",
         "options": [
             "A. //",
             "B. <!-- -->",
             "C. #",
             "D. **"
         ],
-        "answer": "B",
+        "answer": "C",
         "correct_text": "#"
     },
 
     {
-        "question": "Which function is used to take input in python?",
+        "question": "Which function is used to take input in Python?",
         "options": [
             "A. print()",
             "B. scanf()",
