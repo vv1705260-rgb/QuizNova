@@ -31,7 +31,16 @@ A premium Python-based quiz game application with leaderboard, score tracking, a
 - Conditional Statements
 
 ---
+# Project Live Link 
 
+https://github.com/vv1705260-rgb/QuizNova/tree/main
+
+---
+# Screenshot Demo
+
+<img width="1536" height="1024" alt="89897" src="https://github.com/user-attachments/assets/1b0a5bba-5d41-408a-947a-dd22b5a177c9" />
+
+---
 # ▶️ How To Run
 
 ```bash
